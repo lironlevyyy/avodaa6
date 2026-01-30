@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void Clickme(View view) {
         count++;
-        tx.setText(""+count);
+        if (count==7) {
+            tx.setText("Enough to click.Go to new start!");
+            count = 0;
+        } else{
+            tx.setText(""+count);
+
+        }
     }
 }
