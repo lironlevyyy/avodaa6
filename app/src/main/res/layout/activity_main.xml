@@ -13,6 +13,7 @@
         android:layout_width="238dp"
         android:layout_height="75dp"
         android:text="TextView"
+        android:textSize="20dp"
         android:textColor="#A42C2C"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"

@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private TextView tx;
+    private int count;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tx=findViewById(R.id.tx);
+
     }
 
     public void Clickme(View view) {
-        tx.setText("oh,yea,i've been clicked!");
+        count++;
+        tx.setText(""+count);
     }
 }
