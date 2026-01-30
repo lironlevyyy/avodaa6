@@ -14,6 +14,7 @@
         android:layout_height="75dp"
         android:text="TextView"
         android:textSize="20dp"
+        android:visibility="visible"
         android:width="50dp"
         android:textColor="#A42C2C"
         app:layout_constraintBottom_toTopOf="@+id/button"

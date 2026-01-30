@@ -27,10 +27,11 @@ public class MainActivity extends AppCompatActivity {
     public void Clickme(View view) {
         count++;
         if (count==7) {
-            tx.setText("Enough to click.Go to new start!");
-            count = 0;
-        } else{
-            tx.setText(""+count);
+            tx.setText("Boom!");
+        } else if (count%7==0) {
+            tx.setText("Boom!");
+        } else {
+            tx.setText("This is a click number:"+count);
 
         }
     }
